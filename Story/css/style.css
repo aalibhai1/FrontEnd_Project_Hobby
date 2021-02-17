@@ -1,14 +1,8 @@
-
-body {
-    background-color: black;
-}
-
-/* nav*/
 .customNav {
     position: fixed;
     width: 100%;
     padding: 10px;
-    background: url('../img/transparency.png');
+    background: url("../img/transparency.png");
     background-color: transparent !important;
     background-size: cover;
     z-index: 10;
@@ -50,17 +44,17 @@ body {
   }
 
 
-/* hero_image */
-
-  .jumbotron {
-    background-image: url('../img/halo_hero_image.jpg');
-    background-size: cover;
+/* hero image */
+.jumbotron {
+    background-image: url('../img/hero_image2.jpg');
+    background-size: contain;
     background-repeat: no-repeat;
-    height: 500px;
-    height: calc(100vh - 25px);
+    
+    height: calc(200vh - 25px);
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
   
   }
   
@@ -73,29 +67,6 @@ body {
     padding-top: 20%;
   }
 
-
-  /* cards */
-  .content {
-    padding: 50px;
-  }
-  
-  .sectionHeading {
-    text-align: center;
-    margin: 50px;
-  }
-  
-  .halo_u {
-    padding: 0px 30px 30px 30px;
-  
-  }
-  
-  .cardContainer {
-    text-align: center;
-  }
-
-  .sectionHeading {
-      color: whitesmoke;
-  }
 
 
   /* footer */
