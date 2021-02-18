@@ -1,11 +1,12 @@
 .customNav {
-    position: fixed;
+    
     width: 100%;
     padding: 10px;
     background: url("../img/transparency.png");
     background-color: transparent !important;
     background-size: cover;
     z-index: 10;
+    margin-bottom: 10px;
 
   }
   
@@ -44,30 +45,20 @@
   }
 
 
-/* hero image */
-.jumbotron {
-    background-image: url('../img/hero_image2.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    
-    height: calc(200vh - 25px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  
-  }
-  
-  .jumboCopy {
-    width: 70%;
-    min-width: 500px;
-    max-width: 700px;
-    color: whitesmoke;
-    text-align: center;
-    padding-top: 20%;
-  }
+/* content */
+.clearfix {
+ margin-top: 10px;
+}
 
+h2 {
+  text-align: center;
+  padding: 20px;
+  margin-top: 100px;
+}
 
+.clearfix {
+  padding: 20px;
+}
 
   /* footer */
   .footer-basic {
