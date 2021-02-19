@@ -4,7 +4,7 @@
     width: 100%;
     padding: 10px;
     background: url("../img/transparency.png");
-    background-color: transparent !important;
+    background-color: black;
     background-size: cover;
     z-index: 10;
     margin-bottom: 10px;
@@ -46,6 +46,15 @@
   }
 
 
+  /* content */
+  .customImg {
+    height: 500px;
+    width: 500px;
+  }
+
+  .clearfix {
+    padding: 40px;
+  }
 
 
 /* footer */

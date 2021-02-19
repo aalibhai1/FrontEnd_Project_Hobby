@@ -45,7 +45,11 @@
     font-size: 15px;
   }
 
+/* content */
 
+.clearfix {
+  padding: 40px;
+}
 
 
 /* footer */

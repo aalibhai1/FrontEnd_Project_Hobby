@@ -45,8 +45,15 @@
     font-size: 15px;
   }
 
+/* content */
+.clearfix {
+  padding: 40px;
+}
 
-
+.h3_img {
+  height: 650px;
+  width: 500px;
+}
 
 /* footer */
 .footer-basic {
