@@ -1,9 +1,10 @@
+/* nav bar */
 .customNav {
     
     width: 100%;
     padding: 10px;
     background: url("../img/transparency.png");
-    background-color: transparent !important;
+    background-color: black;
     background-size: cover;
     z-index: 10;
     margin-bottom: 10px;
@@ -45,23 +46,10 @@
   }
 
 
-/* content */
-.clearfix {
- margin-top: 10px;
-}
 
-h2 {
-  text-align: center;
-  padding: 10px;
-  margin-top: 100px;
-}
 
-.clearfix {
-  padding: 20px;
-}
-
-  /* footer */
-  .footer-basic {
+/* footer */
+.footer-basic {
     padding:40px 0;
     background-color: black;
     color: whitesmoke;
