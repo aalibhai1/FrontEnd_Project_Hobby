@@ -63,7 +63,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 800;
+    font-weight: 900;
   
   }
   
@@ -76,7 +76,13 @@ body {
     padding-top: 20%;
   }
 
+.display-4 {
+  font-weight: 600;
+}
 
+.lead {
+  font-weight: 500;
+}
   /* cards */
   .content {
     padding: 50px;
@@ -85,6 +91,7 @@ body {
   .sectionHeading {
     text-align: center;
     margin: 50px;
+    padding-bottom: 50px;
   }
   
   .halo_u {
@@ -94,6 +101,7 @@ body {
   
   .cardContainer {
     text-align: center;
+    padding: 10px;
   }
 
   .sectionHeading {
