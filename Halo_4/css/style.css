@@ -1,19 +1,13 @@
-
-body {
-    background-color: black;
-
-}
-
-
-/* nav*/
+/* nav bar */
 .customNav {
-    position: fixed;
+    
     width: 100%;
     padding: 10px;
-    background: url('../img/transparency.png');
-    background-color: transparent !important;
+    background: url("../img/transparency.png");
+    background-color: black;
     background-size: cover;
     z-index: 10;
+    margin-bottom: 10px;
 
   }
   
@@ -51,66 +45,18 @@ body {
     font-size: 15px;
   }
 
-
-/* hero_image */
-
-  .jumbotron {
-    background-image: url('../img/halo_hero_image.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 500px;
-    height: calc(100vh - 25px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 900;
-  
-  }
-  
-  .jumboCopy {
-    width: 70%;
-    min-width: 500px;
-    max-width: 700px;
-    color: whitesmoke;
-    text-align: center;
-    padding-top: 20%;
-  }
-
-.display-4 {
-  font-weight: 600;
+/* content */
+.clearfix {
+  padding: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-.lead {
-  font-weight: 500;
-}
-  /* cards */
-  .content {
-    padding: 50px;
-  }
-  
-  .sectionHeading {
-    text-align: center;
-    margin: 50px;
-    padding-bottom: 50px;
-  }
-  
-  .halo_u {
-    padding: 0px 30px 30px 30px;
-  
-  }
-  
-  .cardContainer {
-    text-align: center;
-    padding: 10px;
-  }
-
-  .sectionHeading {
-      color: whitesmoke;
-  }
 
 
-  /* footer */
-  .footer-basic {
+
+/* footer */
+.footer-basic {
     padding:40px 0;
     background-color: black;
     color: whitesmoke;
@@ -172,18 +118,24 @@ body {
   }
   
   /* Credit to https://epicbootstrap.com/snippets/footer-basic */
-  @media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-  }
+
+
+  /* For mobile phones: */
+
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
